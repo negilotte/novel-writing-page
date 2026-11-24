@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="小説執筆を趣味にしている人のプロフィールと作品紹介">
+  <title>ことばの栞｜小説執筆のページ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">ことばの栞<span>BOOKMARK OF WORDS</span></a>
+    <nav aria-label="メインナビゲーション">
+      <a href="#about">趣味について</a>
+      <a href="#works">作品紹介</a>
+      <a href="#process">執筆の楽しみ</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">MY HOBBY / CREATIVE WRITING</p>
+        <h1>物語の世界を、<br><em>言葉</em>で描く。</h1>
+        <p class="hero-copy">小説を書くことが好きです。頭の中に浮かんだ景色や登場人物の思いを、ひとつずつ言葉にして物語を作っています。</p>
+        <a class="primary-button" href="#works">作品を見る <span>↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="本とペンをイメージしたイラスト">
+        <div class="sun"></div>
+        <div class="book book-back"></div>
+        <div class="book book-front">
+          <span class="book-line"></span>
+          <span class="book-title">STORY<br>BEGINS</span>
+          <span class="book-mark">✦</span>
+        </div>
+        <div class="floating-note">Chapter 01<br><small>はじまりの一ページ</small></div>
+        <div class="sparkle sparkle-one">✦</div>
+        <div class="sparkle sparkle-two">✧</div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>小説執筆について</h2>
+      </div>
+      <div class="about-card">
+        <div class="about-number">01</div>
+        <div>
+          <h3>自分だけの物語を作る</h3>
+          <p>小説執筆の魅力は、自由に世界観や登場人物を考え、自分の発想を形にできるところです。何気ない出来事から物語を思いつくこともあり、設定を考えたり文章を推敲したりする時間を楽しんでいます。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section works-section" id="works">
+      <div class="section-heading">
+        <p class="eyebrow">02 / WORKS</p>
+        <h2>作品紹介</h2>
+        <p class="section-lead">物語の雰囲気やアイデアを紹介します。</p>
+      </div>
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="work-cover cover-blue"><span>01</span><strong>雨上がりの<br>約束</strong><small>青春・日常</small></div>
+          <div class="work-info"><h3>雨上がりの約束</h3><p>雨の日に出会った二人が、小さな約束をきっかけに変わっていく物語。</p></div>
+        </article>
+        <article class="work-card">
+          <div class="work-cover cover-rose"><span>02</span><strong>月明かりの<br>図書室</strong><small>ミステリー</small></div>
+          <div class="work-info"><h3>月明かりの図書室</h3><p>夜の図書室で見つけた一冊の本から、不思議な出来事が始まる物語。</p></div>
+        </article>
+        <article class="work-card">
+          <div class="work-cover cover-green"><span>03</span><strong>まだ知らない<br>世界へ</strong><small>ファンタジー</small></div>
+          <div class="work-info"><h3>まだ知らない世界へ</h3><p>見慣れた景色の向こうに広がる、未知の世界を冒険する物語。</p></div>
+        </article>
+      </div>
+      <p class="note">※作品名・あらすじはページのサンプルです。自分の作品に合わせて変更できます。</p>
+    </section>
+
+    <section class="section process-section" id="process">
+      <div class="section-heading">
+        <p class="eyebrow">03 / MY PROCESS</p>
+        <h2>執筆の楽しみ</h2>
+      </div>
+      <div class="process-list">
+        <div class="process-item"><span>01</span><div><h3>アイデアを考える</h3><p>テーマや世界観、登場人物の性格を考えます。</p></div></div>
+        <div class="process-item"><span>02</span><div><h3>物語を書いてみる</h3><p>展開を組み立てながら、自分の言葉で文章にします。</p></div></div>
+        <div class="process-item"><span>03</span><div><h3>読み返して整える</h3><p>読みやすさや表現を見直し、少しずつ完成に近づけます。</p></div></div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <p class="eyebrow">THANK YOU FOR READING</p>
+      <h2>次の一ページへ。</h2>
+      <p>これからも、想像した物語を自分の言葉で形にしていきたいです。</p>
+      <button id="messageButton" class="primary-button" type="button">ひとことメッセージ</button>
+      <p id="message" class="message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#top">ことばの栞<span>BOOKMARK OF WORDS</span></a><p>© 2026 My Writing Portfolio</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
